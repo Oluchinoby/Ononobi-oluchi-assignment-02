@@ -23,7 +23,9 @@ let sum = [{x: 1}, {x: 2}, {x: 3}].reduce(
     , initialValue
 )
 
-console.log(sum) // logs 6
+console.log(message?: any, optional params:any []): void (+1 overload)
+
+// logs 6
 
 /**
  * Challenge - 2
