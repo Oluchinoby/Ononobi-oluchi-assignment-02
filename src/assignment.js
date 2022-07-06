@@ -39,7 +39,13 @@ console.log(sum);
 function countEvenNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+var arr = [4,5,7,8,14,45,76];
+    	
+        var evens = arr.filter(number => number % 2 == 0);
+        document.write('Even Numbers: ' + evens);
+    }
+    
+    countEvenNumbers();
 
 /**
  * Challenge - 3
