@@ -17,13 +17,13 @@ function sumOfNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
 }
 
-let initialValue = 0
-let sum = [{x: 1}, {x: 2}, {x: 3}].reduce(
-    (previousValue, currentValue) => previousValue + currentValue.x
-    , initialValue
-)
+const array = [1, 2, 3, 4];
+let sum = 0;
 
-console.log(message?: any, optional params:any []): void (+1 overload)
+for (let i = 0; i < array.length; i++) {
+    sum += array[i];
+}
+console.log(sum);
 
 // logs 6
 
