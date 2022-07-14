@@ -22,7 +22,7 @@ function sumOfNumbers(arrayOfNumbers) {
 let sum = 0;
 
 for (var i = 0; i < arrayOfNumbers.length; i++) {
-    sum += sumOfNumbersofnumbers[i];
+    sum += sumOfNumbers[i];
 }
 
 return sum;
@@ -30,7 +30,7 @@ return sum;
 }
 
 console.log(sumOfNumbers([2,3,5]));
-
+/*assignment.sumOfNumbers = sumOfNumbers/
 
 /**
  * Challenge - 2
