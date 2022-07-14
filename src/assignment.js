@@ -22,7 +22,7 @@ function sumOfNumbers(arrayOfNumbers) {
 let sum = 0;
 
 for (var i = 0; i < arrayOfNumbers.length; i++) {
-    sum += sumOfNumbers[i];
+    sum += sumOfNumbersofnumbers[i];
 }
 
 return sum;
@@ -42,15 +42,15 @@ console.log(sumOfNumbers([2,3,5]));
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-    let count = 0;
-  for(let i=0;i<arrayOfNumbers.length;i++){
-    if(arrayOfNumbers[i]%2 ==0){
-      count++;
-    }
-  }
-  return count;
-}    
-console.log(countEvenNumbers([21,26,54,68,94,22,40,42]));	
+    return arrayOfNumbers.length;
+}
+var arr = [4,5,7,8,14,45,76];
+{ var evens = arr.filter(number => number % 2 == 0);
+        document.write('Even Numbers: ' + evens);
+    
+    countEvenNumbers();
+ console.log(evenNumbers)
+}  	
         
 
 /**
