@@ -19,18 +19,17 @@ const assignment = {};
 function sumOfNumbers(arrayOfNumbers) {
     //return arrayOfNumbers.length;
 
-sum = 0
+let sum = 0;
 
-for (let i = 0; i < array.length; i++) {
-    sum += arrayofnumbers[i];
+for (var i = 0; i < arrayOfNumbers.length; i++) {
+    sum += sumOfNumbersofnumbers[i];
 }
 
 return sum;
 
 }
 
-/*console.log(arrayOfNumbers.length)
-console.log(sumOfNumbers(arrayofNumbers));/
+console.log(sumOfNumbers([2,3,5]));
 
 
 /**
